@@ -1,0 +1,120 @@
+
+*{
+margin:  0%;
+padding: 0%;
+}
+body{
+ font-family: 'Times New Roman' , sans-serif; 
+ 
+}
+.nav{
+ margin: 0%;
+ padding: 0%;
+ background-color: bisque;
+ top:0%; 
+ position:sticky;
+  
+}
+.nav .burger{
+ margin-top: 15px;
+  margin-left: 5px;
+   width: 25px;
+   height:20px;
+   display: none;
+}
+.nav > ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none; 
+} 
+ .connection{
+   width: 15px;
+   height: 15px;
+   color: blue;
+   margin-top: 0%;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 0px;
+   padding-right: 0px;
+  }
+  #produits{
+   margin-top: 10px;
+   padding-top: 10px;
+   list-style: none;
+   width: max-content;
+   position:absolute;
+   letter-spacing: 4;
+  }
+ 
+ @media screen and (max-width:992px)
+ {
+ .nav .burger{
+   display: block;
+ }
+ .nav > ul {
+   display: flex;
+   flex-direction: row;
+ }
+ .image{
+   width: 400vw;
+   height: 900vh;
+ 
+ }
+ .container{
+   display: flex;
+   align-items: center;
+ }
+
+
+ }
+ .container{
+display: flex;
+justify-content: space-around;
+min-width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+padding-right: 0%;
+padding-left: 5%;
+margin-bottom: 10%;
+min-height: 100%;
+
+ }
+ .item1 p,
+ .item2 p,
+ .item3 ul li a i,
+ #item4
+ {
+display:flex;
+flex-direction: column;
+justify-content: center;
+ }
+.item1 h4 p{
+display: flex;
+justify-content: center;
+
+}
+
+
+ .item2 h4 p{
+  margin-left : 10%;
+  padding-left : 5%;
+  width: 20%;
+ }
+.item3 ul {
+list-style: none;
+
+
+}
+#item4,#connect,#choice{
+  height: 30px;
+  flex-direction: column;
+  height: 30px;
+
+}
+
+
+
+ 
+ 
+
+ 
