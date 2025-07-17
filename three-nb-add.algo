@@ -1,0 +1,11 @@
+ALGORITHM phrase
+VAR nbr cart,nbr mot,nbr voy:STRING;
+    phrase:STRING;
+    
+BEGIN
+   Read(nbr cart)
+   Read(nbr voy)
+   phrase:=(nbr mot) 
+   write(phrase)
+
+END
